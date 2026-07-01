@@ -1,0 +1,495 @@
+canonical_identifier: bkk:krp/KR6n0004/v1
+canonical_location: https://kanripo.org/bkk/KR6n0004/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 菩薩善戒經
+  identifiers:
+    alt_id:
+    - T30n1582
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T30/T30n1582.xml
+    old_id: T30n1582
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit2
+- short: 元
+  label: 元
+  source_xml_id: wit3
+- short: 明
+  label: 明
+  source_xml_id: wit4
+- short: 聖
+  label: 聖
+  source_xml_id: wit1
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: 房山-CB
+  label: 房山-CB
+  source_xml_id: wit6
+- short: 金藏乙-CB
+  label: 金藏乙-CB
+  source_xml_id: wit7
+- short: 麗-CB
+  label: 麗-CB
+  source_xml_id: wit5
+- short: 磧乙-CB
+  label: 磧乙-CB
+  source_xml_id: wit9
+- short: 嘉興乙-CB
+  label: 嘉興乙-CB
+  source_xml_id: wit10
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6n0004_000.yaml, hash: 'sha256:3d43cf88929fb0a8c35b310f851387e3f5aaae799771575ff338ada1c12c0e7e'}
+  - {seq: 1, filename: KR6n0004_001.yaml, hash: 'sha256:7b84049d45df8803bd656198c74cfdda60bd7fbbaf26650fb43afc0512389de1'}
+  - {seq: 2, filename: KR6n0004_002.yaml, hash: 'sha256:578b32bc2ba9be59200b55e02d163bd03e334eae728151e1cd5a0099a4fa499f'}
+  - {seq: 3, filename: KR6n0004_003.yaml, hash: 'sha256:f9fcfdfe72e51d839e4f65d2e87eac077807f21d81163b6903177f69d7e84dc0'}
+  - {seq: 4, filename: KR6n0004_004.yaml, hash: 'sha256:8cae262a8f1486f25c9efb05a986ba845a92bc9b21d433d7f08c901df80bff15'}
+  - {seq: 5, filename: KR6n0004_005.yaml, hash: 'sha256:78c4fb2b4ae057a5de35203e7464b31e53a24be2772ed5a68dd772539957be8e'}
+  - {seq: 6, filename: KR6n0004_006.yaml, hash: 'sha256:9109e7309e4ec2a6be3063e1ab676036c1a5e8c5edf73cb7201fa9751ef2e121'}
+  - {seq: 7, filename: KR6n0004_007.yaml, hash: 'sha256:e8d29c1120a97548474be147bb1282e56e18e01979a4a29dd1c42626eac41c18'}
+  - {seq: 8, filename: KR6n0004_008.yaml, hash: 'sha256:98d2cc9af0cfcd876e06dcdb35fd9f35afa9452b470c66d1b496937759fea399'}
+  - {seq: 9, filename: KR6n0004_009.yaml, hash: 'sha256:a5c54a271e0b70eb4885c06ec20b3d4a1b82845afa5b78ee6f6eaddbbc84222e'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6n0004_001.markers.yaml, hash: 'sha256:0a0ddd4ab5d50d9f11e45f67286dd919146ce7bcff63ead67bea039d13bf6190'}
+  - {seq: 2, role: markers, filename: assets/KR6n0004_002.markers.yaml, hash: 'sha256:6cf3b9d4929a55bca5a9432e6c9a152071b3b17751d1e9324970e19568d18895'}
+  - {seq: 3, role: markers, filename: assets/KR6n0004_003.markers.yaml, hash: 'sha256:5c28915e9bc19e2cb85daf7fce8b6b6f5ec53a3ef2fb58d549d6e4cc21c3ba90'}
+  - {seq: 4, role: markers, filename: assets/KR6n0004_004.markers.yaml, hash: 'sha256:b29560b02eea2964ba19e73e223afc2aeb3212d2971ec5b0003db3e815f0fc5b'}
+  - {seq: 5, role: markers, filename: assets/KR6n0004_005.markers.yaml, hash: 'sha256:87a6a0af4b0c746eedfbeb878266756e529ccca9f31b51c356b13844202cab79'}
+  - {seq: 6, role: markers, filename: assets/KR6n0004_006.markers.yaml, hash: 'sha256:67c8cc54c8264c8f64ae9fc96f551df48ab5d5d7429008324a02d5aa1d58ebcf'}
+  - {seq: 7, role: markers, filename: assets/KR6n0004_007.markers.yaml, hash: 'sha256:491bc54b69c1ac9c8c922ce83ff7c509b108b7e3e37df08c6c35a38a79542412'}
+  - {seq: 8, role: markers, filename: assets/KR6n0004_008.markers.yaml, hash: 'sha256:b15d3a98a10307e42b04e79d05eba22659dff469898593469c10ac99d5244a6e'}
+  - {seq: 9, role: markers, filename: assets/KR6n0004_009.markers.yaml, hash: 'sha256:6d3ff8b3376a7fb1ddee7cb86e1dd5b08029a8bde86af5fef22f786a953b3f33'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6n0004_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 11976
+  label: 菩薩善戒經卷第一
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6n0004_T_001-mulu-1
+    span:
+    - body
+    - 10
+    - 10
+  label: 1 菩薩地
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6n0004_T_001-mulu-2
+    span:
+    - body
+    - 10
+    - 10
+  label: 1 序品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6n0004_T_001-mulu-3
+    span:
+    - body
+    - 3621
+    - 3621
+  label: 2 善行性品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6n0004_T_001-mulu-4
+    span:
+    - body
+    - 6200
+    - 6200
+  label: 3 發菩提心品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6n0004_T_001-mulu-5
+    span:
+    - body
+    - 8276
+    - 8276
+  label: 4 利益內外品
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6n0004_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 8378
+  label: 菩薩善戒經卷第二
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6n0004_T_002-mulu-1
+    span:
+    - body
+    - 10
+    - 10
+  label: 5 真實義品
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6n0004_T_002-mulu-2
+    span:
+    - body
+    - 4653
+    - 4653
+  label: 6 不可思議品
+  type: mulu
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6n0004_T_003-juan-start
+    span:
+    - body
+    - 0
+    - 8223
+  label: 菩薩善戒經卷第三
+  type: juan
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6n0004_T_003-mulu-1
+    span:
+    - body
+    - 10
+    - 10
+  label: 7 調伏品
+  type: mulu
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6n0004_T_003-mulu-2
+    span:
+    - body
+    - 2489
+    - 2489
+  label: 8 菩提品
+  type: mulu
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6n0004_T_003-mulu-3
+    span:
+    - body
+    - 3865
+    - 3865
+  label: 9 菩提力性品
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6n0004_T_004-juan-start
+    span:
+    - body
+    - 0
+    - 8135
+  label: 菩薩善戒經卷第四
+  type: juan
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6n0004_T_004-mulu-1
+    span:
+    - body
+    - 10
+    - 10
+  label: 10 施品
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6n0004_T_004-mulu-2
+    span:
+    - body
+    - 3880
+    - 3880
+  label: 11 戒品
+  type: mulu
+  level: 1
+- ref:
+    seq: 5
+    marker_id: KR6n0004_T_005-juan-start
+    span:
+    - body
+    - 0
+    - 8405
+  label: 菩薩善戒經卷第五
+  type: juan
+  level: 1
+- ref:
+    seq: 5
+    marker_id: KR6n0004_T_005-mulu-1
+    span:
+    - body
+    - 10
+    - 10
+  label: 12 忍品
+  type: mulu
+  level: 1
+- ref:
+    seq: 5
+    marker_id: KR6n0004_T_005-mulu-2
+    span:
+    - body
+    - 2324
+    - 2324
+  label: 13 精進品
+  type: mulu
+  level: 1
+- ref:
+    seq: 5
+    marker_id: KR6n0004_T_005-mulu-3
+    span:
+    - body
+    - 3934
+    - 3934
+  label: 14 禪品
+  type: mulu
+  level: 1
+- ref:
+    seq: 5
+    marker_id: KR6n0004_T_005-mulu-4
+    span:
+    - body
+    - 5021
+    - 5021
+  label: 15 慧品
+  type: mulu
+  level: 1
+- ref:
+    seq: 5
+    marker_id: KR6n0004_T_005-mulu-5
+    span:
+    - body
+    - 5807
+    - 5807
+  label: 16 軟語品
+  type: mulu
+  level: 1
+- ref:
+    seq: 6
+    marker_id: KR6n0004_T_006-juan-start
+    span:
+    - body
+    - 0
+    - 7719
+  label: 菩薩善戒經卷第六
+  type: juan
+  level: 1
+- ref:
+    seq: 6
+    marker_id: KR6n0004_T_006-mulu-1
+    span:
+    - body
+    - 10
+    - 10
+  label: 17 供養三寶品
+  type: mulu
+  level: 1
+- ref:
+    seq: 6
+    marker_id: KR6n0004_T_006-mulu-2
+    span:
+    - body
+    - 3652
+    - 3652
+  label: 18 三十七助道品
+  type: mulu
+  level: 1
+- ref:
+    seq: 7
+    marker_id: KR6n0004_T_007-juan-start
+    span:
+    - body
+    - 0
+    - 7379
+  label: 菩薩善戒經卷第七
+  type: juan
+  level: 1
+- ref:
+    seq: 7
+    marker_id: KR6n0004_T_007-mulu-1
+    span:
+    - body
+    - 10
+    - 10
+  label: 19 助菩提數法餘品
+  type: mulu
+  level: 1
+- ref:
+    seq: 7
+    marker_id: KR6n0004_T_007-mulu-2
+    span:
+    - body
+    - 2281
+    - 2281
+  label: 20 功德品
+  type: mulu
+  level: 1
+- ref:
+    seq: 7
+    marker_id: KR6n0004_T_007-mulu-3
+    span:
+    - body
+    - 5693
+    - 5693
+  label: 2 如法住
+  type: mulu
+  level: 1
+- ref:
+    seq: 7
+    marker_id: KR6n0004_T_007-mulu-4
+    span:
+    - body
+    - 5693
+    - 5693
+  label: 1 菩薩相品
+  type: mulu
+  level: 1
+- ref:
+    seq: 7
+    marker_id: KR6n0004_T_007-mulu-5
+    span:
+    - body
+    - 6725
+    - 6725
+  label: 2 禪品
+  type: mulu
+  level: 1
+- ref:
+    seq: 8
+    marker_id: KR6n0004_T_008-juan-start
+    span:
+    - body
+    - 0
+    - 8829
+  label: 菩薩善戒經卷第八
+  type: juan
+  level: 1
+- ref:
+    seq: 8
+    marker_id: KR6n0004_T_008-mulu-1
+    span:
+    - body
+    - 10
+    - 10
+  label: 3 定心品
+  type: mulu
+  level: 1
+- ref:
+    seq: 8
+    marker_id: KR6n0004_T_008-mulu-2
+    span:
+    - body
+    - 1077
+    - 1077
+  label: 4 生菩提地品
+  type: mulu
+  level: 1
+- ref:
+    seq: 8
+    marker_id: KR6n0004_T_008-mulu-3
+    span:
+    - body
+    - 8200
+    - 8200
+  label: 3 畢竟地
+  type: mulu
+  level: 1
+- ref:
+    seq: 8
+    marker_id: KR6n0004_T_008-mulu-4
+    span:
+    - body
+    - 8200
+    - 8200
+  label: 1 生品
+  type: mulu
+  level: 1
+- ref:
+    seq: 9
+    marker_id: KR6n0004_T_009-juan-start
+    span:
+    - body
+    - 0
+    - 8748
+  label: 菩薩善戒經卷第九
+  type: juan
+  level: 1
+- ref:
+    seq: 9
+    marker_id: KR6n0004_T_009-mulu-1
+    span:
+    - body
+    - 10
+    - 10
+  label: 2 攝取品
+  type: mulu
+  level: 1
+- ref:
+    seq: 9
+    marker_id: KR6n0004_T_009-mulu-2
+    span:
+    - body
+    - 1068
+    - 1068
+  label: 3 畢竟品
+  type: mulu
+  level: 1
+- ref:
+    seq: 9
+    marker_id: KR6n0004_T_009-mulu-3
+    span:
+    - body
+    - 1649
+    - 1649
+  label: 4 行品
+  type: mulu
+  level: 1
+- ref:
+    seq: 9
+    marker_id: KR6n0004_T_009-mulu-4
+    span:
+    - body
+    - 2488
+    - 2488
+  label: 5 三十二相八十種好品
+  type: mulu
+  level: 1
+- ref:
+    seq: 9
+    marker_id: KR6n0004_T_009-mulu-5
+    span:
+    - body
+    - 4304
+    - 4304
+  label: 6 住品
+  type: mulu
+  level: 1
+hash: sha256:5b14ae91f80ff55cf1356c9b79f7990ff15098c33494ab02c53c352c4ec3de4d
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
